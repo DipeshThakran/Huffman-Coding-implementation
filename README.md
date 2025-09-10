@@ -16,7 +16,7 @@
 make
 
 # Compress
-./huffman -c input.txt output.huff
+./huffman -c test_files/sample.txt test_files/compressed.huff
 
 # Decompress
-./huffman -d output.huff original.txt
+./huffman -d test_files/compressed.huff test_files/decompressed.txt
